@@ -5,9 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Shop</title>
+    <style>
+        table, tr, th, td {
+            border: 2px solid;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Table</h1>
+    <table>
+        <caption>Shedule</caption>
+        <thead>
+            <tr>
+                <th>Day of week</th>
+                <th>Work time</th>
+                <th>Lunch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Понедельник</td>
+                <td>8:00 - 16:00</td>
+                <td>12:00 - 13:00</td>
+            </tr>
+            <tr>
+                <td>Вторник</td>
+                <td>9:00 - 17:00</td>
+                <td>13:00 - 14:00</td>
+            </tr>
+            <tr>
+                <td>Среда</td>
+                <td>11:00 - 19:00</td>
+                <td>15:00 - 16:00</td>
+            </tr>
+            <tr>
+                <td>Четверг</td>
+                <td>9:00 - 18:00</td>
+                <td>13:30 - 14:30</td>
+            </tr>
+            <tr>
+                <td>Пятница</td>
+                <td>9:00 - 18:00</td>
+                <td>12:00 - 13:30</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
     <ol reversed>
         <li>item#1</li>
         <li>item#2</li>
@@ -15,17 +58,63 @@
         <li>item#4</li>
         <li><button type="button"><a href="https://elit-web.ua/blog/semanticheskaya-verstka-sajta">item#5</a></button></li>
     </ol>
+    <table>
+        <caption>Table#1 Capitals Info</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Coutry</th>
+                <th rowspan="2">Capital</th>
+                <th colspan="2">Info</th>
+                <th rowspan="2">Notice</th>
+                <th colspan="2">DS</th>
+            </tr>
+            <tr>
+                <th>Population</th>
+                <th>Square km2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Britain</th>
+                <th>London</th>
+                <th>800000</th>
+                <th>1602</th>
+                <th>* 2020</th>
+            </tr>
+            <tr>
+                <th>USA</th>
+                <th>Washington</th>
+                <th>700000</th>
+                <th>177</th>
+                <th>* 2020</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Nethelands</th>
+                <th>Amsterfam</th>
+                <th>870000</th>
+                <th>243</th>
+                <th>* 2019</th>
+            </tr>
+            <tr>
+                <th>Haag</th>
+                <th>515000</th>
+                <th>98.2</th>
+                <th>* 2015</th>
+            </tr>
+            <tr>
+                <th>Ukraine</th>
+                <th>Kiev</th>
+                <th>2950000</th>
+                <th>847,66</th>
+                <th>* 2022</th>
+            </tr>
+        </tbody>
+    </table>
+    
     <header>
-        <button type="button">Нажмите меня!</button>
+        <button>DS</button>
     </header>
-    <nav>
-
-    </nav>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>
