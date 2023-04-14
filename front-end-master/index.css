@@ -20,6 +20,9 @@ header{
 }
 h1{
     margin-left: 10px;
+    background-color: #00000018; /* цвет заднего фона */
+    border-radius: 30px; /* радиус скругления углов */
+    padding: 5px;
 }
 .header{
     display: flex;
@@ -61,5 +64,30 @@ h2{
 .paragraph::first-line {
     color: blue; /* цвет первой строки */
     font-size: 1.5em; /* размер шрифта первой строки - 1.5 раза больше остального текста */
+  }
+  footer {
+    background: linear-gradient(to right, #689CD2, #0f8fb962); /* градиентный фон слева на право */
+    padding: 10px;
+    color: black; /* цвет текста */
+  }
+  footer{
+    padding-top: 0px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* выравнивание блоков в ряд с отступами между ними */
+  }
+  
+  .footer-adress-kontact-danue {
+    width: 25%; /* ширина блока */
+    margin-left: 25px;
+  }
+  
+  .footer-adress-kontact-danue h4 {
+    margin-bottom: 10px; /* отступ между заголовком и параграфами */
+  }
+  
+  .footer-adress-kontact-danue p {
+    margin: 0; /* удаление отступов у параграфов */
   }
   
