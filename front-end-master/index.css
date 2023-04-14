@@ -90,4 +90,7 @@ h2{
   .footer-adress-kontact-danue p {
     margin: 0; /* удаление отступов у параграфов */
   }
-  
+  .menu{
+    
+    color: black;
+  }
